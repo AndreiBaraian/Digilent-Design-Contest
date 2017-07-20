@@ -1,0 +1,4 @@
+AR hx711 a_hx711 E:/FPGA/hx711_Version2/hx711.vhd sub00/vhpl01 1493144776
+EN hx711 NULL E:/FPGA/hx711_Version2/hx711.vhd sub00/vhpl00 1493144775
+EN seven_seg NULL E:/FPGA/hx711_Version2/seven_seg.vhd sub00/vhpl02 1493144773
+AR seven_seg a_seg E:/FPGA/hx711_Version2/seven_seg.vhd sub00/vhpl03 1493144774

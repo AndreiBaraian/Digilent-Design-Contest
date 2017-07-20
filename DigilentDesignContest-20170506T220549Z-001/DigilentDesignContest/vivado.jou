@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun May 07 01:07:37 2017
+# Process ID: 1796
+# Current directory: C:/Users/bara_/Downloads/DigilentDesignContest-20170506T220549Z-001/DigilentDesignContest
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1804 C:\Users\bara_\Downloads\DigilentDesignContest-20170506T220549Z-001\DigilentDesignContest\DigilentDesignContest.xpr
+# Log file: C:/Users/bara_/Downloads/DigilentDesignContest-20170506T220549Z-001/DigilentDesignContest/vivado.log
+# Journal file: C:/Users/bara_/Downloads/DigilentDesignContest-20170506T220549Z-001/DigilentDesignContest\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/bara_/Downloads/DigilentDesignContest-20170506T220549Z-001/DigilentDesignContest/DigilentDesignContest.xpr
+

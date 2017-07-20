@@ -1,0 +1,13 @@
+V3 7
+FL E:/FPGA/hx711_Version2/hx711.vhd 2017/04/25.21:26:10 P.20131013
+EN work/hx711 1493144775 FL E:/FPGA/hx711_Version2/hx711.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/hx711/a_hx711 1493144776 \
+      FL E:/FPGA/hx711_Version2/hx711.vhd EN work/hx711 1493144775 CP seven_seg
+FL E:/FPGA/hx711_Version2/seven_seg.vhd 2017/04/20.10:36:29 P.20131013
+EN work/seven_seg 1493144773 FL E:/FPGA/hx711_Version2/seven_seg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/seven_seg/a_seg 1493144774 \
+      FL E:/FPGA/hx711_Version2/seven_seg.vhd EN work/seven_seg 1493144773

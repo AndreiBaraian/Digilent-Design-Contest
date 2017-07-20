@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun May 14 10:23:10 2017
+# Process ID: 11932
+# Current directory: C:/Users/bara_/Desktop/DigilentDesignContest
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4964 C:\Users\bara_\Desktop\DigilentDesignContest\DigilentDesignContest.xpr
+# Log file: C:/Users/bara_/Desktop/DigilentDesignContest/vivado.log
+# Journal file: C:/Users/bara_/Desktop/DigilentDesignContest\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/bara_/Desktop/DigilentDesignContest/DigilentDesignContest.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/bara_/Desktop/DigilentDesignContest/DigilentDesignContest.runs/impl_1/main.bit} [lindex [get_hw_devices xc7z010_1] 0]
+current_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROGRAM.FILE {C:/Users/bara_/Desktop/DigilentDesignContest/DigilentDesignContest.runs/impl_1/main.bit} [lindex [get_hw_devices xc7z010_1] 0]
+program_hw_devices [lindex [get_hw_devices xc7z010_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]

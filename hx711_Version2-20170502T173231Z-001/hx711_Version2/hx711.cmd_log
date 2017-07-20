@@ -1,0 +1,88 @@
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 
+xst -intstyle ise -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -ifn "E:/FPGA/hx711_Version2/hx711.xst" -ofn "E:/FPGA/hx711_Version2/hx711.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s100e-cp132-4 hx711.ngc hx711.ngd  
+map -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o hx711_map.ncd hx711.ngd hx711.pcf 
+par -filter "E:/FPGA/hx711_Version2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 hx711_map.ncd hx711.ncd hx711.pcf 
+trce -filter E:/FPGA/hx711_Version2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hx711.twx hx711.ncd -o hx711.twr hx711.pcf -ucf constr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f hx711.ut hx711.ncd 

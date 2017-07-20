@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Mar 06 20:58:30 2017
+# Process ID: 7000
+# Current directory: E:/FPGA/senzor_ultrasonic_Sabau
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7868 E:\FPGA\senzor_ultrasonic_Sabau\senzor_ultrasonic_Sabau.xpr
+# Log file: E:/FPGA/senzor_ultrasonic_Sabau/vivado.log
+# Journal file: E:/FPGA/senzor_ultrasonic_Sabau\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA/senzor_ultrasonic_Sabau/senzor_ultrasonic_Sabau.xpr

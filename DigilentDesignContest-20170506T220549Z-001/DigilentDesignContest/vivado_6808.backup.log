@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat May 06 14:54:53 2017
+# Process ID: 6808
+# Current directory: d:/Victor/concurs/Digilent/finalArchive/22CJRO/22CJRO_Project/Source/ZYBO/DigilentDesignContest
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7252 D:\Victor\concurs\Digilent\finalArchive\22CJRO\22CJRO_Project\Source\ZYBO\DigilentDesignContest\DigilentDesignContest.xpr
+# Log file: d:/Victor/concurs/Digilent/finalArchive/22CJRO/22CJRO_Project/Source/ZYBO/DigilentDesignContest/vivado.log
+# Journal file: d:/Victor/concurs/Digilent/finalArchive/22CJRO/22CJRO_Project/Source/ZYBO/DigilentDesignContest\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Victor/concurs/Digilent/finalArchive/22CJRO/22CJRO_Project/Source/ZYBO/DigilentDesignContest/DigilentDesignContest.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Victor/concurs/Digilent/finalArchive/22CJRO/22CJRO_Project/Source/ZYBO/DigilentDesignContest'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.4/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 06 14:55:26 2017...

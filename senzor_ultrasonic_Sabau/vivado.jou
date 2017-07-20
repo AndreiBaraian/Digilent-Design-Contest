@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Apr 07 20:18:00 2017
+# Process ID: 2964
+# Current directory: C:/Users/bara_/Desktop/senzor_ultrasonic_Sabau
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1084 C:\Users\bara_\Desktop\senzor_ultrasonic_Sabau\senzor_ultrasonic_Sabau.xpr
+# Log file: C:/Users/bara_/Desktop/senzor_ultrasonic_Sabau/vivado.log
+# Journal file: C:/Users/bara_/Desktop/senzor_ultrasonic_Sabau\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/bara_/Desktop/senzor_ultrasonic_Sabau/senzor_ultrasonic_Sabau.xpr

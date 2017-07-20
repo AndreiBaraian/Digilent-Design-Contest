@@ -1,0 +1,31 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Apr 25 21:26:26 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "DOUT" LOCATE = SITE "B2" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "dp" LOCATE = SITE "N13" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "N5" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "P4" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "G1" LEVEL 1;
+COMP "SCK" LOCATE = SITE "A3" LEVEL 1;
+COMP "cat<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "cat<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "cat<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "cat<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "cat<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "cat<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "cat<6>" LOCATE = SITE "L14" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,138 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Fri May 12 14:49:08 2017
+| Host         : Sabau-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7z010
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    68 |
+| Unused register locations in slices containing registers |   259 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              62 |           33 |
+| No           | No                    | Yes                    |              53 |           17 |
+| No           | Yes                   | No                     |             159 |           57 |
+| Yes          | No                    | No                     |             274 |           76 |
+| Yes          | No                    | Yes                    |               9 |            3 |
+| Yes          | Yes                   | No                     |             200 |           53 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------------------+-----------------------------------------------------+---------------------------------------------------------+------------------+----------------+
+|                    Clock Signal                    |                    Enable Signal                    |                     Set/Reset Signal                    | Slice Load Count | Bel Load Count |
++----------------------------------------------------+-----------------------------------------------------+---------------------------------------------------------+------------------+----------------+
+|  SERVOS_U/U5/CLK_4KHZ_DIVIDER/count_pulse_bool_reg |                                                     | SERVOS_U/U5/servo_sig_i_1_n_0                           |                1 |              1 |
+|  v_echo_rst_reg_i_2__0_n_0                         |                                                     | CHECK_GLASS_BIN_FULL/TRIGGER_SIGNAL/v_reg_reg[1]        |                1 |              1 |
+|  SERVOS_U/U3/CLK_4KHZ_DIVIDER/count_pulse_bool_reg |                                                     | SERVOS_U/U3/servo_sig_i_1__2_n_0                        |                1 |              1 |
+|  SERVOS_U/U4/CLK_4KHZ_DIVIDER/count_pulse_bool_reg |                                                     | SERVOS_U/U4/servo_sig_i_1__3_n_0                        |                1 |              1 |
+|  SERVOS_U/U2/CLK_4KHZ_DIVIDER/count_pulse_bool_reg |                                                     | SERVOS_U/U2/servo_sig_i_1__1_n_0                        |                1 |              1 |
+|  SERVOS_U/U1/CLK_4KHZ_DIVIDER/clock                |                                                     | SERVOS_U/U1/servo_sig_i_1__0_n_0                        |                1 |              1 |
+|  clk_IBUF_BUFG                                     | MPG_U/q2[0]_i_1_n_0                                 |                                                         |                1 |              1 |
+|  v_echo_rst_reg_i_2_n_0                            |                                                     | CHECK_METAL_BIN_FULL/TRIGGER_SIGNAL/v_reg_reg[1]        |                1 |              1 |
+|  v_echo_rst_reg_i_2__2_n_0                         |                                                     | CHECK_PLASTIC_BIN_FULL/TRIGGER_SIGNAL/v_reg_reg[1]      |                1 |              1 |
+|  v_echo_rst_reg_i_2__1_n_0                         |                                                     | CHECK_WASTE_BIN_FULL/TRIGGER_SIGNAL/v_reg_reg[1]        |                1 |              1 |
+|  clk_IBUF_BUFG                                     |                                                     | WEIGHT_U/rst_cnt_125                                    |                1 |              1 |
+|  SERVOS_U/move_servo1_reg[1]_i_2_n_0               |                                                     |                                                         |                1 |              2 |
+|  SERVOS_U/move_servo2_reg[1]_i_2_n_0               |                                                     |                                                         |                2 |              2 |
+|  SERVOS_U/move_servo3_reg[1]_i_2_n_0               |                                                     |                                                         |                1 |              2 |
+|  SERVOS_U/move_servo4_reg[1]_i_2_n_0               |                                                     |                                                         |                1 |              2 |
+|  SERVOS_U/U4/CLK_4KHZ_DIVIDER/count_pulse_bool_reg | SERVOS_U/U4/count_pulse                             | SERVOS_U/U4/count_pulse[3]_i_1__3_n_0                   |                1 |              4 |
+|  SERVOS_U/U5/CLK_4KHZ_DIVIDER/count_pulse_bool_reg | SERVOS_U/U5/count_pulse                             | SERVOS_U/U5/count_pulse[3]_i_1_n_0                      |                1 |              4 |
+|  SERVOS_U/U3/CLK_4KHZ_DIVIDER/count_pulse_bool_reg | SERVOS_U/U3/count_pulse                             | SERVOS_U/U3/count_pulse[3]_i_1__2_n_0                   |                1 |              4 |
+|  v_echo_rst_reg_i_2__0_n_0                         |                                                     |                                                         |                3 |              4 |
+|  led_reg[3]_i_2_n_0                                |                                                     |                                                         |                1 |              4 |
+|  SERVOS_U/U2/CLK_4KHZ_DIVIDER/count_pulse_bool_reg | SERVOS_U/U2/count_pulse                             | SERVOS_U/U2/count_pulse[3]_i_1__1_n_0                   |                1 |              4 |
+|  SERVOS_U/U1/CLK_4KHZ_DIVIDER/clock                | SERVOS_U/U1/count_pulse                             | SERVOS_U/U1/count_pulse[3]_i_1__0_n_0                   |                1 |              4 |
+|  clk_IBUF_BUFG                                     | WEIGHT_U/count_wait[3]_i_1_n_0                      |                                                         |                1 |              4 |
+|  v_echo_rst_reg_i_2_n_0                            |                                                     |                                                         |                3 |              4 |
+|  v_echo_rst_reg_i_2__2_n_0                         |                                                     |                                                         |                2 |              4 |
+|  v_echo_rst_reg_i_2__1_n_0                         |                                                     |                                                         |                3 |              4 |
+|  clk_IBUF_BUFG                                     | SERVOS_U/servo_new_status[4]_i_1_n_0                |                                                         |                2 |              5 |
+|  SERVOS_U/U3/CLK_4KHZ_DIVIDER/count_pulse_bool_reg |                                                     | SERVOS_U/U3/count_pulse[3]_i_1__2_n_0                   |                3 |              8 |
+|  SERVOS_U/U4/CLK_4KHZ_DIVIDER/count_pulse_bool_reg |                                                     | SERVOS_U/U4/count_pulse[3]_i_1__3_n_0                   |                3 |              8 |
+|  SERVOS_U/U2/CLK_4KHZ_DIVIDER/count_pulse_bool_reg |                                                     | SERVOS_U/U2/count_pulse[3]_i_1__1_n_0                   |                4 |              8 |
+|  SERVOS_U/U5/CLK_4KHZ_DIVIDER/count_pulse_bool_reg |                                                     | SERVOS_U/U5/count_pulse[3]_i_1_n_0                      |                3 |              8 |
+|  SERVOS_U/U1/CLK_4KHZ_DIVIDER/clock                |                                                     | SERVOS_U/U1/count_pulse[3]_i_1__0_n_0                   |                3 |              8 |
+|  clk_IBUF_BUFG                                     | WEIGHT_U/en_cnt_125                                 | WEIGHT_U/rst_cnt_125                                    |                3 |              9 |
+|  clk_IBUF_BUFG                                     |                                                     | CHECK_PLASTIC_BIN_FULL/CLOCK_100KHz/eqOp_carry_n_0      |                3 |             10 |
+|  clk_IBUF_BUFG                                     |                                                     | CHECK_METAL_BIN_FULL/CLOCK_100KHz/eqOp_carry_n_0        |                4 |             10 |
+|  clk_IBUF_BUFG                                     |                                                     | CHECK_GLASS_BIN_FULL/CLOCK_100KHz/eqOp_carry_n_0        |                3 |             10 |
+|  clk_IBUF_BUFG                                     |                                                     | CHECK_WASTE_BIN_FULL/CLOCK_100KHz/eqOp_carry_n_0        |                2 |             10 |
+|  clk_IBUF_BUFG                                     | WEIGHT_U/rst_cnt_125_i_1_n_0                        |                                                         |                3 |             12 |
+|  clk_IBUF_BUFG                                     | CHECK_PLASTIC_BIN_FULL/CLOCK_100KHz/eqOp_carry_n_0  |                                                         |                4 |             12 |
+|  clk_IBUF_BUFG                                     | CHECK_GLASS_BIN_FULL/CLOCK_100KHz/eqOp_carry_n_0    |                                                         |                4 |             12 |
+|  clk_IBUF_BUFG                                     | CHECK_WASTE_BIN_FULL/CLOCK_100KHz/eqOp_carry_n_0    |                                                         |                4 |             12 |
+|  clk_IBUF_BUFG                                     | CHECK_METAL_BIN_FULL/CLOCK_100KHz/eqOp_carry_n_0    |                                                         |                4 |             12 |
+|  v_echo_rst_reg_i_2__0_n_0                         |                                                     | CHECK_GLASS_BIN_FULL/TRIGGER_SIGNAL/cnt_period_reg[0]   |                4 |             13 |
+|  clk_IBUF_BUFG                                     | WEIGHT_U/data0                                      |                                                         |                4 |             13 |
+|  clk_IBUF_BUFG                                     | WEIGHT_U/shift                                      |                                                         |                4 |             13 |
+|  v_echo_rst_reg_i_2__2_n_0                         |                                                     | CHECK_PLASTIC_BIN_FULL/TRIGGER_SIGNAL/cnt_period_reg[0] |                4 |             13 |
+|  v_echo_rst_reg_i_2__0_n_0                         | CHECK_GLASS_BIN_FULL/TRIGGER_SIGNAL/cnt             | CHECK_GLASS_BIN_FULL/TRIGGER_SIGNAL/start_trig3_out     |                4 |             13 |
+|  v_echo_rst_reg_i_2__1_n_0                         |                                                     | CHECK_WASTE_BIN_FULL/TRIGGER_SIGNAL/cnt_period_reg[0]   |                4 |             13 |
+|  v_echo_rst_reg_i_2__1_n_0                         | CHECK_WASTE_BIN_FULL/TRIGGER_SIGNAL/cnt             | CHECK_WASTE_BIN_FULL/TRIGGER_SIGNAL/start_trig3_out     |                4 |             13 |
+|  v_echo_rst_reg_i_2_n_0                            | CHECK_METAL_BIN_FULL/TRIGGER_SIGNAL/cnt             | CHECK_METAL_BIN_FULL/TRIGGER_SIGNAL/start_trig3_out     |                4 |             13 |
+|  v_echo_rst_reg_i_2__2_n_0                         | CHECK_PLASTIC_BIN_FULL/TRIGGER_SIGNAL/cnt           | CHECK_PLASTIC_BIN_FULL/TRIGGER_SIGNAL/start_trig3_out   |                4 |             13 |
+|  v_echo_rst_reg_i_2_n_0                            |                                                     | CHECK_METAL_BIN_FULL/TRIGGER_SIGNAL/v_echo_rst          |                4 |             13 |
+|  clk_IBUF_BUFG                                     |                                                     | SERVOS_U/U3/CLK_4KHZ_DIVIDER/cnt[0]_i_1__5_n_0          |                4 |             14 |
+|  clk_IBUF_BUFG                                     |                                                     | SERVOS_U/U1/CLK_4KHZ_DIVIDER/clear                      |                4 |             14 |
+|  clk_IBUF_BUFG                                     |                                                     | SERVOS_U/U2/CLK_4KHZ_DIVIDER/cnt[0]_i_1__4_n_0          |                4 |             14 |
+|  clk_IBUF_BUFG                                     |                                                     | SERVOS_U/U5/CLK_4KHZ_DIVIDER/cnt[0]_i_1__7_n_0          |                4 |             14 |
+|  clk_IBUF_BUFG                                     |                                                     | SERVOS_U/U4/CLK_4KHZ_DIVIDER/cnt[0]_i_1__6_n_0          |                4 |             14 |
+|  clk_IBUF_BUFG                                     | resetMetal_OBUF                                     |                                                         |                7 |             28 |
+|  clk_IBUF_BUFG                                     | wait_start_scan                                     |                                                         |                7 |             28 |
+|  clk_IBUF_BUFG                                     | SERVOS_U/state[1]                                   |                                                         |                8 |             30 |
+|  clk_IBUF_BUFG                                     | SERVOS_U/state[0]                                   |                                                         |                8 |             30 |
+|  clk_IBUF_BUFG                                     | seconds9                                            |                                                         |                8 |             31 |
+|  v_echo_rst_reg_i_2__2_n_0                         | CHECK_PLASTIC_BIN_FULL/TRIGGER_SIGNAL/v_trig111_out | CHECK_PLASTIC_BIN_FULL/TRIGGER_SIGNAL/start_trig        |                8 |             32 |
+|  v_echo_rst_reg_i_2__0_n_0                         | CHECK_GLASS_BIN_FULL/TRIGGER_SIGNAL/v_trig111_out   | CHECK_GLASS_BIN_FULL/TRIGGER_SIGNAL/start_trig          |                8 |             32 |
+|  v_echo_rst_reg_i_2__1_n_0                         | CHECK_WASTE_BIN_FULL/TRIGGER_SIGNAL/v_trig111_out   | CHECK_WASTE_BIN_FULL/TRIGGER_SIGNAL/start_trig          |                8 |             32 |
+|  clk_IBUF_BUFG                                     | SERVOS_U/servo5_move[0]_i_1_n_0                     |                                                         |                8 |             32 |
+|  v_echo_rst_reg_i_2_n_0                            | CHECK_METAL_BIN_FULL/TRIGGER_SIGNAL/v_trig111_out   | CHECK_METAL_BIN_FULL/TRIGGER_SIGNAL/start_trig          |                8 |             32 |
+|  clk_IBUF_BUFG                                     |                                                     |                                                         |               16 |             34 |
++----------------------------------------------------+-----------------------------------------------------+---------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    11 |
+| 2      |                     4 |
+| 4      |                    11 |
+| 5      |                     1 |
+| 8      |                     5 |
+| 9      |                     1 |
+| 10     |                     4 |
+| 12     |                     5 |
+| 13     |                    10 |
+| 14     |                     5 |
+| 16+    |                    11 |
++--------+-----------------------+
+
+

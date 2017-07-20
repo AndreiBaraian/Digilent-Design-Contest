@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat May 06 14:47:26 2017
+# Process ID: 5604
+# Current directory: f:/digilent final code/DigilentDesignContest
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6756 F:\digilent final code\DigilentDesignContest\DigilentDesignContest.xpr
+# Log file: f:/digilent final code/DigilentDesignContest/vivado.log
+# Journal file: f:/digilent final code/DigilentDesignContest\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/digilent final code/DigilentDesignContest/DigilentDesignContest.xpr}

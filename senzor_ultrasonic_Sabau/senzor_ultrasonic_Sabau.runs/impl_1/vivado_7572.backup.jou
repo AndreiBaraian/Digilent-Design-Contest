@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Mar 05 17:54:25 2017
+# Process ID: 7572
+# Current directory: E:/FPGA/senzor_ultrasonic_Sabau/senzor_ultrasonic_Sabau.runs/impl_1
+# Command line: vivado.exe -log ultrasonic.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ultrasonic.tcl -notrace
+# Log file: E:/FPGA/senzor_ultrasonic_Sabau/senzor_ultrasonic_Sabau.runs/impl_1/ultrasonic.vdi
+# Journal file: E:/FPGA/senzor_ultrasonic_Sabau/senzor_ultrasonic_Sabau.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ultrasonic.tcl -notrace

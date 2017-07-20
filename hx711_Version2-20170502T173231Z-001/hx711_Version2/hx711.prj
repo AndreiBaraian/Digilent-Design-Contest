@@ -1,0 +1,2 @@
+vhdl work "seven_seg.vhd"
+vhdl work "hx711.vhd"

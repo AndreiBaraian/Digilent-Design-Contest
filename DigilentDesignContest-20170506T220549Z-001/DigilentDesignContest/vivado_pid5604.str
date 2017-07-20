@@ -1,0 +1,87 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 5604
+
+Current time: 	5/6/17 2:47:39 PM EEST
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	Victor
+User home directory: C:/Users/Victor
+User working directory: f:/digilent final code/DigilentDesignContest
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: D:/Xilinx/Vivado
+RDI data directory: D:/Xilinx/Vivado/2016.4/data
+RDI bin directory: D:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Victor/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Victor/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	213 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 413 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: F:\digilent final code\DigilentDesignContest\DigilentDesignContest.xpr. Version: Vivado v2016.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {F:/digilent final code/DigilentDesignContest/DigilentDesignContest.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// [GUI Memory]: 41 MB (+40579kb) [00:00:05]
+// [Engine Memory]: 398 MB (+265529kb) [00:00:05]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {F:/digilent final code/DigilentDesignContest/DigilentDesignContest.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/FPGA/DigilentDesignContest' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 44 MB (+1342kb) [00:00:07]
+// [Engine Memory]: 466 MB (+50717kb) [00:00:07]
+// [Engine Memory]: 506 MB (+17765kb) [00:00:08]
+// [GUI Memory]: 54 MB (+7720kb) [00:00:09]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 516 MB. GUI used memory: 33 MB. Current time: 5/6/17 2:47:43 PM EEST
+// [GUI Memory]: 58 MB (+1323kb) [00:00:10]
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 810.102 ; gain = 149.758 
+// Project name: DigilentDesignContest; location: F:/digilent final code/DigilentDesignContest; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_PROJECT_SETTINGS, "Project Settings..."); // ab:JMenuItem (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
